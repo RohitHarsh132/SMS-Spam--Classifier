@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS Spam Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SMS Spam Classifier</h1>
+            <p class="subtitle">Check if your message is spam or not</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <textarea id="sms-input" placeholder="Enter your SMS message here..." rows="4"></textarea>
+                <button id="check-btn">Check Message</button>
+            </div>
+
+            <div class="result-section" id="result-section">
+                <div class="result-card">
+                    <h2>Result</h2>
+                    <div class="result-content">
+                        <p>Classification: <span id="prediction" class="result-text">-</span></p>
+                        <p>Confidence: <span id="confidence" class="result-text">-</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Analyzing message...</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Built with ❤️ using Flask and Machine Learning</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html> 
