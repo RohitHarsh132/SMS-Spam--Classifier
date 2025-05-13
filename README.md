@@ -2,6 +2,13 @@
 
 A web application that classifies SMS messages as spam or not spam using machine learning.
 
+## Screenshots
+
+![Empty State](screenshots/screenshot1.png)
+![Spam Result](screenshots/screenshot2.png)
+![Not Spam (Low Confidence)](screenshots/screenshot3.png)
+![Not Spam (Confetti)](screenshots/screenshot4.png)
+
 ## Features
 
 - Real-time SMS classification
