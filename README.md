@@ -26,6 +26,7 @@ A web application that classifies SMS messages as spam or not spam using machine
 - Python
 - Flask
 - scikit-learn
+- NLP
 - HTML5
 - CSS3
 - JavaScript
