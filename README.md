@@ -4,7 +4,13 @@ A web application that classifies SMS messages as spam or not spam using machine
 
 ## Screenshots
 
+![Image](https://github.com/user-attachments/assets/c47122c7-2abf-479e-bacb-c083df240885)
 
+![Image](https://github.com/user-attachments/assets/fb44068b-6836-4aeb-957e-550997644763)
+
+![Image](https://github.com/user-attachments/assets/24f6feea-fc28-4b4a-859e-026e7e8896d8)
+
+![Image](https://github.com/user-attachments/assets/897976cd-0ceb-418d-a03f-97b8dec89138)
 
 
 ## Features
